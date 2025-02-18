@@ -15,7 +15,7 @@ sync code;
 
                         //****async function**** */
 async function getdata(){
-    setTimeout( function ()=>{
+    setTimeout( () => {
         console.log("async fun h")
     }, 3000);
 }

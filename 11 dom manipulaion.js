@@ -1,4 +1,4 @@
-//WINDOW OBJ {SBSE BDA, SRE FUN ISKE ANDR HEE ATE H} is GLOBAL OBJ
+                      //****WINDOW OBJ**** {SBSE BDA, SRE FUN ISKE ANDR HEE ATE H} is GLOBAL OBJ
   //DOM,BOM,MATHS arr sb WINDOW OBJ K ande aate h 
 
 
@@ -66,9 +66,9 @@ button.textContent;  // This will return the text content of the element, includ
 // set -> 
 button.textContent = 'NEW Text';  // This will replace all the text content inside the button, including visible and hidden text, with "NEW Text".
 
-Key Differences:
-innerText: Returns only the visible text, considering the styles (like display: none, visibility: hidden, etc.). It is also sensitive to line breaks and formatting.
-textContent: Returns all text content, including hidden text (i.e., it ignores styles like display: none). It’s faster than innerText since it doesn’t take CSS into account.
+// Key Differences:
+// innerText: Returns only the visible text, considering the styles (like display: none, visibility: hidden, etc.). It is also sensitive to line breaks and formatting.
+// textContent: Returns all text content, including hidden text (i.e., it ignores styles like display: none). It’s faster than innerText since it doesn’t take CSS into account.
 
 
 

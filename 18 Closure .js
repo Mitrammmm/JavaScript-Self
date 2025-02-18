@@ -1,4 +1,4 @@
-// **Closure in JavaScript**:
+                            // ****Closure ****:
 // A closure is when a function is able to access variables from its outer scope even after the outer function has finished executing.
 
 // **Why is it significant?** 
@@ -19,6 +19,7 @@ function outer() {
   counter();  // Output: 2
   // `counter` remembers the `count` variable due to closure.
   
+
   // **Does closure create a new copy or reference?** 
   // Closures keep a reference to the original variables, not a copy.
   // This means any changes made by the inner function affect the original variable in the outer scope.

@@ -23,7 +23,7 @@ fname.addEventListener('click',changename);
 fname.removeEventListener('click',changename);   //EVENT AND FUN NEED TO BE SAME TO REMOVE
 
 //OR
-fname.addEventListener('click', function changename{
+fname.addEventListener('click', function changename() {
     fname.textContent = "Saumitra";
 });
 
